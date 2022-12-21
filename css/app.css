@@ -1,0 +1,95 @@
+/*DESENVOLVIDO POR CRISTIANO FREESE*/
+/*SELETORES UTILIZADOS PARA RESPONSIVIDADE E ESTILO DA PÁGINA*/
+
+/*FONTE PRINCIPAL ALTERNATIVA - UTILIZADA NA CRIAÇÃO DA LOGO    
+Fonte Monteserrat Alternates utilizada nas páginas 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+*{ font-family: 'Montserrat Alternates', sans-serif; }*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Oswald:wght@200;400;700&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300;1,500&display=swap');
+*{ font-family: 'Roboto', sans-serif; }
+
+/* CONFIGURACOES PARA NAO COLAPSAR NAVBAR EM TELAS COM LARGURA INFERIOR A 990PX */ 
+/* CONFIGURACOES GERAIS DA NAVBAR, COMO POSIÇÃO DA LOGO, EFEITO HOVER, ALTURA DOS ITENS, CORES */ 
+/* CORES DA LOGO - ROXO - #84659B       VERDE - #A4DA95*/
+@media screen and (min-width:990px) {
+  .navbar-brand{
+    position: left;
+    left:50%;
+    top:0;
+  }
+    
+  .nav-link{
+    transition:all 0.5s;
+  }
+    
+  .nav-link.active{
+    color: #784C0C!important;
+  }
+    
+  .nav-link:hover{
+    color: #FAC100!important;
+    transition:all 0.5s;
+  }
+    
+  .configNavbar{
+    height: 100px;
+  }
+    
+  li.nav-item a{
+    padding:58px 0px;
+    color: #784C0C;
+  }
+}
+
+/* CONFIGURAÇÕES GERAIS DO CONTEÚDO INJETADO EM MAIN */
+main{
+  padding: 10px 0px;
+  bottom: 100px;
+  background-color: white;
+  color: #784C0C;
+  ;
+}
+
+/* CONFIGURAÇÕES GERAIS DO FOOTER, COMO EFEITO HOVER, ALTURA DOS ITENS, CORES */
+.page-footer{
+  width: 100%;
+  bottom: 0px;
+  background-color: #FAC100;
+  padding:10px;
+  color: #784C0C;
+ }
+
+.footer-social a{
+  text-decoration:none;
+  color:#784C0C;
+}
+
+.footer-social a i{
+  font-size: 28px;
+}
+
+.footer-social a:hover{
+  color: #FAC100!important;
+  transition:all 0.5s;
+}
+
+.footer-copyright a:hover{
+  color: #FAC100!important;
+  transition:all 0.5s;
+}
+
+.footer-copyright{
+  font-size: 14px;
+}
+
+.footer-copyright a{
+  text-decoration:none;
+  color:#FAC100
+}
+
+/* CONFIGURAÇÕES RELACIONADAS A TABELA DE PRATOS CADASTRADOS */
+.table-bordered{
+  color:#784C0C;
+}
+
